@@ -1,0 +1,160 @@
+
+/* ***Responsive media query*** */
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width:1500px){ 
+    
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+   .single-features p {
+     font-size: 12px;
+   }
+
+   .single-features h6 {
+     font-size: 16px;
+   }
+
+   header .animated-figure1,
+   header .animated-figure2 {
+     display: none;
+   }
+   .hero-content h2 {
+     font-size: 36px;
+     margin-bottom: 40px;
+   }
+
+
+   .hero-content ul.icons li {
+     width: 60px;
+     height: 60px;
+   }
+
+   .hero-content {
+     padding-top: 120px;
+     padding-bottom: 140px;
+   }
+
+   .cta-content h2 {
+     margin-bottom: 40px;
+     font-size: 28px;
+   }
+
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+   .hero-content h2 {
+     font-size: 28px;
+     margin-bottom: 30px;
+   }
+
+
+   header .animated-figure1,
+   header .animated-figure2 {
+     display: none;
+   }
+
+   .hero-content {
+     padding-top: 80px;
+     padding-bottom: 100px;
+   }
+
+   .hero-content ul.icons li {
+     width: 60px;
+     height: 60px;
+     padding: 3px;
+   }
+
+
+
+
+}
+
+/* Extra small devices (portrait phones, less than 768px) */
+@media (max-width: 767.98px) { 
+   .menu-btn a.def-btn {
+     width: 100px;
+     height: 30px;
+     line-height: 29px;
+     font-size: 10px;
+   }
+
+   header .animated-figure1,
+   header .animated-figure2 {
+     display: none;
+   }
+
+   .hero-content h2 {
+     font-size: 24px;
+     margin-bottom: 30px;
+   }
+
+   .hero-content ul.icons li {
+     width: 40px;
+     height: 40px;
+     padding: 3px;
+     margin: 0 5px;
+   }
+
+   .hero-content {
+     padding-top: 100px;
+     padding-bottom: 80px;
+   }
+
+   a.def-btn {
+     font-size: 12px;
+     width: 170px;
+     height: 45px;
+     line-height: 44px;
+   }
+
+
+   .product-area-wrapper {
+     padding-top: 60px;
+     padding-bottom: 30px;
+   }
+
+   .section-title h2 {
+     font-size: 24px;
+   }
+    p {
+      font-size: 14px;
+    }
+
+    .cta-wrapper {
+      padding: 60px 0;
+    }
+
+    footer img {
+      width: 100%;
+      max-width: 180px;
+    }
+
+    footer p {
+      font-size: 12px;
+      margin-bottom: 0;
+      margin-top: 40px;
+    }
+
+
+    footer {
+      padding: 60px 0;
+    }
+
+
+
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+   
+  .single-features p {
+    font-size: 12px;
+  }
+
+
+}
